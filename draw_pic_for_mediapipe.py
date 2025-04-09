@@ -12,7 +12,6 @@ from io import BytesIO
 import zipfile
 from datetime import datetime
 
-plt.rcParams['font.family'] = 'DejaVu Sans']
 
 st.title("Upper Limb Stick Picture Viewer")
 st.markdown("Upload a CSV file (pose_output.csv) exported from MediaPipe.")
